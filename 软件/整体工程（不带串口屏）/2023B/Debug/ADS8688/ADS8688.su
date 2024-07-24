@@ -1,0 +1,16 @@
+../ADS8688/ADS8688.c:8:6:ADS8688_SPI_WB	24	static
+../ADS8688/ADS8688.c:29:9:ADS8688_SPI_RB	16	static
+../ADS8688/ADS8688.c:51:6:ADS8688_WriteCommandReg	16	static
+../ADS8688/ADS8688.c:60:6:ADS8688_Write_Program_Register	16	static
+../ADS8688/ADS8688.c:69:9:ADS8688_READ_Program_Register	24	static
+../ADS8688/ADS8688.c:81:7:Enter_RESET_MODE	8	static
+../ADS8688/ADS8688.c:86:6:AUTO_RST_Mode	8	static
+../ADS8688/ADS8688.c:91:6:MAN_Ch_n_Mode	16	static
+../ADS8688/ADS8688.c:96:6:Set_CH_Range_Select	16	static
+../ADS8688/ADS8688.c:101:6:Get_AUTO_RST_Mode_Data	24	static
+../ADS8688/ADS8688.c:142:7:ADS8688_Init_Mult	8	static
+../ADS8688/ADS8688.c:182:10:ADS8688_INIT	16	static
+../ADS8688/ADS8688.c:198:10:Get_MAN_Ch_n_Mode_Data	16	static
+../ADS8688/ADS8688.c:209:10:get_ADS_ch1	8	static
+../ADS8688/ADS8688.c:214:6:get_ch1andch2	32	static
+../ADS8688/ADS8688.c:225:7:get_vol	32	static

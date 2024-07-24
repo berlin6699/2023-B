@@ -1,0 +1,1 @@
+-c -xc -mthumb -std=c11 -ICore/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/CMSIS/Include -I.eide/deps -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -mcpu=cortex-m3 -Og -Wall -g -ffunction-sections -fdata-sections -o ./build/Debug/Core/Src/usart.o -MMD ./Core/Src/usart.c

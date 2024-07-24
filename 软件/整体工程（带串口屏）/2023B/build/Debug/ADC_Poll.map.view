@@ -1,0 +1,3 @@
+tool: GCC
+fileName: ADC_Poll.map
+elfName: ADC_Poll.elf

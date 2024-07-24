@@ -1,0 +1,8 @@
+../tjc_usart/tjc_usart_hmi.c:37:6:TJCPrintf	128	static
+../tjc_usart/tjc_usart_hmi.c:75:6:HAL_UART_RxCpltCallback	16	static
+../tjc_usart/tjc_usart_hmi.c:96:6:initRingBuff	4	static
+../tjc_usart/tjc_usart_hmi.c:115:6:writeRingBuff	16	static
+../tjc_usart/tjc_usart_hmi.c:139:6:deleteRingBuff	24	static
+../tjc_usart/tjc_usart_hmi.c:172:9:read1BFromRingBuff	24	static
+../tjc_usart/tjc_usart_hmi.c:191:10:getRingBuffLenght	4	static
+../tjc_usart/tjc_usart_hmi.c:206:9:isRingBuffOverflow	4	static

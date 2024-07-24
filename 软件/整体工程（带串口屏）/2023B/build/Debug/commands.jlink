@@ -1,0 +1,6 @@
+r
+halt
+loadfile "d:\STM32_project\STM32F4_HAL\ADC_Poll\build\Debug\ADC_Poll.hex"
+r
+go
+exit

@@ -1,0 +1,73 @@
+[2023-12-15 18:12:38]	[done]
+	build successfully !
+
+[2023-12-15 18:15:38]	[done]
+	build successfully !
+
+[2023-12-15 18:16:22]	[done]
+	build successfully !
+
+[2023-12-15 18:17:43]	[done]
+	build successfully !
+
+[2023-12-15 18:20:39]	[done]
+	build successfully !
+
+[2023-12-15 18:23:37]	[done]
+	build successfully !
+
+[2023-12-15 18:28:52]	compilation failed at : "d:\STM32_project\STM32F4_HAL\ADC_Poll\Core\Src\main.c", exit code: 1
+command: 
+  "D:\Software\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" -c -xc -mthumb -std=c11 -ICore/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/CMSIS/Include -I.eide/deps -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -mcpu=cortex-m3 -Og -Wall -g -ffunction-sections -fdata-sections -o ./build/Debug/Core/Src/main.o -MMD ./Core/Src/main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:95:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   95 |     printf("Init success\r\n");
+      |     ^~~~~~
+./Core/Src/main.c:95:5: warning: incompatible implicit declaration of built-in function 'printf'
+./Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   24 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   25 | 
+./Core/Src/main.c:114:39: error: expected ';' before '}' token
+  114 |             printf("\r\n\xFF\xFF\xFF")
+      |                                       ^
+      |                                       ;
+  115 |         }
+      |         ~
+
+[2023-12-15 18:28:58]	[done]
+	build successfully !
+
+[2023-12-15 18:30:14]	[done]
+	build successfully !
+
+[2023-12-15 18:32:21]	[done]
+	build successfully !
+
+[2023-12-15 19:24:07]	[done]
+	build successfully !
+
+[2023-12-15 19:27:19]	[done]
+	build successfully !
+
+[2023-12-15 19:27:42]	[done]
+	build successfully !
+
+[2023-12-15 19:28:20]	compilation failed at : "d:\STM32_project\STM32F4_HAL\ADC_Poll\Core\Src\main.c", exit code: 1
+command: 
+  "D:\Software\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" -c -xc -mthumb -std=c11 -ICore/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/CMSIS/Include -I.eide/deps -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -mcpu=cortex-m3 -Og -Wall -g -ffunction-sections -fdata-sections -o ./build/Debug/Core/Src/main.o -MMD ./Core/Src/main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:113:46: error: expected expression before 'int'
+  113 |             printf("x0.val=%ld\xFF\xFF\xFF", int(1000 * dac_vol));
+      |                                              ^~~
+
+[2023-12-15 19:28:32]	[done]
+	build successfully !
+
+[2023-12-15 19:28:40]	[done]
+	build successfully !
+
